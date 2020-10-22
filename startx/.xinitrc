@@ -1,6 +1,6 @@
 #!/bin/bash
 
-xrandr --output eDP-1 --off  --output HDMI-2 --rotate left
+xrandr --output eDP-1 --off  --output HDMI-2 --rotate normal
 ~/.fehbg &
 picom --config ~/.config/picom/picom.conf -b
 

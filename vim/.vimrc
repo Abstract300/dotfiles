@@ -140,6 +140,7 @@ let g:vimwiki_list = [{'path': '~/Notes/',
 "set cursorline
 set relativenumber
 set number
+set linebreak
 
 "=====Learn Vimscript The Hard Way======
 "Folds

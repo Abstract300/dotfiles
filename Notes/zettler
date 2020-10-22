@@ -1,0 +1,15 @@
+#!/bin/bash
+
+title=$1
+file_name="$(date +%Y%m%d%H%M%+S) - "$title".md"
+
+echo "---" >> "$file_name"
+echo "Title: "$title"" >> "$file_name"
+echo "Tags:"  >> "$file_name"
+echo "Source(s):"  >> "$file_name"
+echo "Date: $(date +%c)" >> "$file_name"
+echo ""  >> "$file_name"
+echo "---"  >> "$file_name"
+echo "" >> "$file_name"
+echo "" >> "$file_name"
+echo "---" >> "$file_name"
